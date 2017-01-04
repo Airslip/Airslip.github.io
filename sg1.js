@@ -31,8 +31,9 @@ function move(speed) {
 
 function attack() {
     let mar = getHorPosition('#player');
+    let marh = getVertPosition('#player');
     $('#player').before("<div class='laser'></div>");
-    $('.laser').css({"margin-left" : (mar+48)+"px", "margin-top" : "500px"});
+    $('.laser').css({"margin-left" : (mar+48)+"px", "margin-top" : marh+"px"});
 }
 
 function floatObj() {
