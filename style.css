@@ -1,0 +1,83 @@
+body {
+    background-image: url(images/backgr1.jpg);
+    background-size: 100%;
+}
+
+#player {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-left: 45%;
+}
+
+.laser {
+    height: 40px;
+    width: 5px;
+    position: absolute;
+    background-color: green;
+}
+
+.red_laser {
+    height: 40px;
+    width: 5px;
+    position: absolute;
+    background-color: red;
+}
+
+.fon_black {
+    /*display: none;*/
+    background: black;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.menu_window {
+    background: #838cd0;
+    border: 3px solid #0f21a0;
+    opacity: 1;
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    top: 25%;
+    left: 35%;
+    z-index: 4;
+}
+
+.menu_btn {
+    width: 60%;
+    height: 20%;
+    background: #4051cc;
+    border: 3px solid #0f21a0;
+    margin: 5% 20%;
+    text-align: center;
+}
+
+.menu_btn:hover {
+    background: #40cc50;
+    border-color: #0fa020;
+}
+
+#message {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    display: none;
+}
+
+#player_hp {
+    background: green;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+}
+
+#player_hp_border {
+    position: absolute;
+    border: 2px solid blue;
+    width: 104px;
+    height: 24px;
+}
